@@ -1,0 +1,9 @@
+import re
+
+pattern = r'cat|dog|mouse'
+
+text = "I have a cat, a dog, and a mouse."
+
+matches = re.findall(pattern, text)
+
+print(matches)
