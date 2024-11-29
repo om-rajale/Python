@@ -13,7 +13,7 @@ def is_subset_sum(numbers, target_sum):
     return dp[n][target_sum]
 numbers = [3, 34, 4, 12, 5, 2]  
 target_sum = 9                   
-result = is_subset_sum(numbers, target_sum)
+result = is_subset_sum(numbers, target_sum)  
 if result:
     print("There is a subset with the target sum.")
 else:
