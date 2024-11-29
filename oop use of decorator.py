@@ -25,8 +25,8 @@ class Calculator:
         if b == 0:
             return "Cannot divide by zero"
         return a / b
-
-# Using the Calculator class
+  
+#   Using the Calculator class
 calc = Calculator()
 calc.add(a, b)
 calc.subtract(a, b)
