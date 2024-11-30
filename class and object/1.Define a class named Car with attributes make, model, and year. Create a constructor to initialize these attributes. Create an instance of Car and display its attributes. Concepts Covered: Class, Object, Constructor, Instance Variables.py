@@ -10,5 +10,5 @@ class Car():
 achine = Car('Mahindra','3XO','2024') #instance of car
 #display its attributes
 print(f"Make:{machine.make}\nModel:{machine.model} \nYear:{machine.year}")
-   
+    
 	
