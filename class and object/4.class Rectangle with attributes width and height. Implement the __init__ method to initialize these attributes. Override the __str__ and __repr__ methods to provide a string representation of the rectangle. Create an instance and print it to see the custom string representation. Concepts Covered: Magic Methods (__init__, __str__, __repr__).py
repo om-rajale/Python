@@ -16,3 +16,4 @@ class Rectangle:
 r = Rectangle(12,20)
 print(r)
 print(repr(r))
+          
