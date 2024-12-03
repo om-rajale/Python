@@ -6,7 +6,7 @@ import json
 def filter_products_by_price(input_file, output_file, min_price):
     try:
         with open(input_file, 'r') as infile:
-            products = json.load(infile)
+            products = json.load(infile)   
         
         filtered_products = [product for product in products if product['price'] >= min_price]
 
