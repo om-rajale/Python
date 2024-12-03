@@ -13,7 +13,7 @@ def filter_products_by_price(input_file, output_file, min_price):
         with open(output_file, 'w') as outfile:
             json.dump(filtered_products, outfile, indent=4)
         
-        print(f"Filtered products saved to {output_file}")
+        print(f"Filtered products saved to {output_file}")    
     except FileNotFoundError:
         print(f"File {input_file} not found.")
     except json.JSONDecodeError:
