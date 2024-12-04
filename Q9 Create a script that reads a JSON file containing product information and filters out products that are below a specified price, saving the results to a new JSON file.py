@@ -21,7 +21,7 @@ def filter_products_by_price(input_file, output_file, min_price):
 
 input_json = 'products.json'  
 output_json = 'filtered_products.json'  
-
+    
 min_price = float(input("Enter the minimum price to filter products: "))
 
 filter_products_by_price(input_json, output_json, min_price)
