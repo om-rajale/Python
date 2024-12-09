@@ -3,7 +3,7 @@ def unique_paths(m, n):
     
     for i in range(m):
         dp[i][0] = 1
-    for j in range(n):
+    for j in range(n): 
         dp[0][j] = 1
     
     for i in range(1, m):
