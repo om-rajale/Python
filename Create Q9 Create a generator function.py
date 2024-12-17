@@ -5,7 +5,7 @@ Concepts Covered: Generators with State """
 
 def count_up_to(max_num):
     current = 1  
-    while current <= max_num:
+    while current <= max_num: 
         yield current
         current += 1  
       
