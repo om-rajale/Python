@@ -7,7 +7,7 @@ def fibonacci_iterative(n):
     for _ in range(2,n+1):
         c = a+b
         a = b
-        b = c
+        b = c 
     return b
 n = int(input('Enter the number:'))
 result = fibonacci_iterative(n)    
