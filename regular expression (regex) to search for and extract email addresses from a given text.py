@@ -1,4 +1,4 @@
-import re 
+import re  
 
 def find_emails(text):
     pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
