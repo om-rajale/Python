@@ -12,7 +12,7 @@ class Calculator:
         return self.a + self.b
 
     def sub(self):
-        return self.a-self.b
+        return self.a-self.b 
     @staticmethod
     def mul(x,y):
         return x*y
