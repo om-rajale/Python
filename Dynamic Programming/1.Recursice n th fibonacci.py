@@ -3,7 +3,7 @@ def fibonacci_recursive(n):
         return 0
     elif n == 1:
         return 1
-    else:
+    else: 
         return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
 # Example usage:
