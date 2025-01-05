@@ -6,7 +6,7 @@ def download_data(file_id):
     print(f"Starting download for file {file_id}...\n")
     time.sleep(random.uniform(1,3))
     print(f"Download completed for file {file_id}.\n")
-    time.sleep(1)
+    time.sleep(1) 
 
 def calculate_factorial(number):
     print(f"Starting factorial calculation for {number}...\n")
