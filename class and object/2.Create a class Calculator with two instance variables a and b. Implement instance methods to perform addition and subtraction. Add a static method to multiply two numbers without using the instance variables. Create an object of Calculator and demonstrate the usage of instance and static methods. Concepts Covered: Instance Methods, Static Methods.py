@@ -5,7 +5,7 @@ methods.
 Concepts Covered: Instance Methods, Static Methods"""
 class Calculator:
     def __init__(self,a,b):
-        self.a = a
+        self.a = a 
         self.b = b
         
     def add(self):
