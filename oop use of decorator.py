@@ -1,4 +1,4 @@
-def log_decorator(func):
+def log_decorator(func):              
     def wrapper(*args, **kwargs):
         print(f"Calling method '{func.__name__}' with arguments {args[1:]}")
         result = func(*args, **kwargs)
