@@ -1,7 +1,7 @@
 """ Design a program to determine whether a subset of a given set of numbers adds up to a specific target sum. """
 def is_subset_sum(numbers, target_sum):
     n = len(numbers)
-    dp = [[False for _ in range(target_sum + 1)] for _ in range(n + 1)]
+    dp = [[False for _ in range(target_sum + 1)] for _ in range(n + 1)]            
     for i in range(n + 1):
         dp[i][0] = True  
     for i in range(1, n + 1):
