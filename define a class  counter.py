@@ -3,7 +3,7 @@ decorator to print the current count before and after the increment operation. I
 ensure the count is properly incremented within the method.
 Concepts Covered: Class with Decorator and Closure """ 
  
-def counter_decorator(func):
+def counter_decorator(func):  
     def wrapper(self, value):
         print("Current count before increment:", self.count)
         result = func(self, value)  
