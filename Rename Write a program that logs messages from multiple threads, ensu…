@@ -4,7 +4,7 @@ import logging
 import threading 
 import time
 
-logging.basicConfig(
+logging.basicConfig(     
     level=logging.DEBUG,
     format='%(asctime)s - %(threadName)s - %(levelname)s - %(message)s',
     filename='thread_safe.log',
