@@ -17,7 +17,7 @@ def calculate_factorial(number):
 for file_id in range(1,4):
     download_data(file_id)
 
-numbers = [5,7,10]
+numbers = [5,7,10]    
 
 for number in numbers:
     calculate_factorial(number)
