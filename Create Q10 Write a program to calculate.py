@@ -2,7 +2,7 @@
 a set of n elements. """
 
 def bell_number(n):      
-    bell = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
+    bell = [[0 for _ in range(n + 1)] for _ in range(n + 1)]                                   
 
     bell[0][0] = 1 
 
