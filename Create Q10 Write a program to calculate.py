@@ -1,4 +1,4 @@
-""" Write a program to calculate the nth Bell number, which represents the number of ways to partition
+""" Write a program to calculate the nth Bell number, which represents the number of ways to partition    
 a set of n elements. """
 
 def bell_number(n):      
