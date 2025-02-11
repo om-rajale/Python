@@ -1,5 +1,5 @@
 # Function to calculate average and determine grade
-def calculate_grade(marks):
+def calculate_grade(marks):      
     average = sum(marks) / len(marks)
     if average >= 90:
         grade = "A"
