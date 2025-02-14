@@ -11,7 +11,7 @@ def counter_decorator(func):
         return result
     return wrapper
 
-class Counter:
+class Counter:         
     def __init__(self):          
         self.count = 0 
 
