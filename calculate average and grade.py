@@ -13,7 +13,7 @@ def calculate_grade(marks):
         grade = "F"       
     
     return average, grade
-
+              
 # Get student name and marks
 student_name = input("Enter student's name: ")
 num_subjects = int(input("Enter number of subjects: "))
