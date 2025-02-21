@@ -16,7 +16,7 @@ class Counter:
         self.count = 0 
 
     @counter_decorator
-    def increment(self, value):
+    def increment(self, value):     
         def adder():
             self.count += value
         adder()  
