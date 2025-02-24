@@ -6,4 +6,4 @@ text = "I have a cat, a dog, and a mouse."
 
 matches = re.findall(pattern, text)
 
-print(matches)  
+print(matches)       
