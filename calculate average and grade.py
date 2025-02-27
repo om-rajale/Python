@@ -6,7 +6,7 @@ def calculate_grade(marks):
     elif average >= 80:
         grade = "B"
     elif average >= 70:
-        grade = "C"  
+        grade = "C"       
     elif average >= 60: 
         grade = "D"
     else:
