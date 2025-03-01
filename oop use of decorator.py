@@ -8,7 +8,7 @@ def log_decorator(func):
 a = int(input('Enter first number'))
 b = int(input('enter second number'))
 class Calculator:
-    @log_decorator
+    @log_decorator    
     def add(self, a, b):
         return a + b
 
