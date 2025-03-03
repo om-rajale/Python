@@ -15,6 +15,6 @@ class Person:
 #creating multiple instances of person
 p1 = Person("OM")
 p2 = Person("Ritesh")
-p3 = Person("Rohit")       
+p3 = Person("Rohit")           
 
 print(f"Population Count is {Person.population_count}")
