@@ -12,7 +12,7 @@ class Person:
     def increament_population(cls):
         cls.population_count +=1
 
-#creating multiple instances of person
+#creating multiple instances of person    
 p1 = Person("OM")
 p2 = Person("Ritesh")
 p3 = Person("Rohit")           
